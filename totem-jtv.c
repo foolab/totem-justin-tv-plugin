@@ -411,7 +411,7 @@ create_ui(TotemJtvPluginPrivate *priv) {
 				   GDK_TYPE_PIXBUF); // thumbnail
 
   view = gtk_tree_view_new_with_model(GTK_TREE_MODEL(model));
-  gtk_tree_voew_set_headers_visible(GTK_TREE_VIEW(view), FALSE);
+  gtk_tree_view_set_headers_visible(GTK_TREE_VIEW(view), FALSE);
 
   gtk_container_add(GTK_CONTAINER(win), view);
 
