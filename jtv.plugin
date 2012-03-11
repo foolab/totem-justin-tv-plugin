@@ -1,0 +1,9 @@
+[Plugin]
+Module=jtv
+IAge=1
+Builtin=false
+Name=Justin TV plugin
+Description=Browse and view Justin TV channels
+Authors=Mohammed Sameer
+Copyright=Copyright (C) 2012 Mohammed Sameer <msameer@foolab.org>
+Website=https://gitorious.org/totem-plugin-justin-tv
