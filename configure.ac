@@ -27,10 +27,6 @@ totem libpeas-1.0 libsoup-2.4 libxml
 ], [
   AC_SUBST(PLUGIN_CFLAGS)
   AC_SUBST(PLUGIN_LIBS)
-], [
-  AC_MSG_ERROR([
-      Missing dependencies.
-  ])
 ])
 
 AC_MSG_CHECKING([to see if compiler understands -Wall])
